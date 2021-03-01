@@ -1,6 +1,6 @@
 {
   "name": "zsteph-util",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "main": "dist/zsteph-util.min.js",
   "author": "Stephanie-zst",
   "scripts": {

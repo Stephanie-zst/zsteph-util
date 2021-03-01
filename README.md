@@ -5,13 +5,13 @@
 #### 安装说明
 
 ```
-npm install zsteph-util
+npm install zsteph-util -D
 ```
 
 #### 使用说明
 
 ```
-import zsteph-util from 'zsteph-util'
+import ZstephUtil from 'zsteph-util'
 // or
 import { LStorage, Tool } from 'zsteph-util'
 ```
