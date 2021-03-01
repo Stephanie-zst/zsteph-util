@@ -14,12 +14,11 @@ npm install zsteph-util
 import zsteph-util from 'zsteph-util'
 // or
 import { LStorage, Tool } from 'zsteph-util'
-
 ```
 
 ## 文档
 
-### 1.Day
+### 1. Day
 
 - pass：格式化现在的已过时间
 
@@ -35,7 +34,7 @@ Day.format(new Date())  // 默认格式 'yyyy-MM-dd hh:mm:ss'
 Day.format(new Date(), 'yyyy:MM:dd')  // 自定义格式 'yyyy.MM.dd'
 ```
 
-### 2.LStorage
+### 2. LStorage
 
 - get: 获取 localstorage
 
@@ -54,10 +53,9 @@ LStorage.set({
 })
 LStorage.del('token')
 LStorage.clear()
-
 ```
 
-### 3.SStorage
+### 3. SStorage
 
 - get: 获取 sessionStorage
 
@@ -67,10 +65,9 @@ LStorage.clear()
 
 ```
 import { SStorage } from 'zsteph-util'
-
 ```
 
-### 4.Tool
+### 4. Tool
 
 > 常用函数工具库（递归深拷贝、正则类型检测、防抖、节流、手机号脱敏等）
 
@@ -107,7 +104,7 @@ Tool.checkType('example@example.com', 'email') //检测邮箱
 Tool.formatePhone('1334567890')
 ```
 
-### 5.Sentry
+### 5. Sentry
 
 > 捕获异常信息
 
